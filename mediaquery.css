@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --cor1: #F2F2F2;
+    --cor2: #4B010F;
+    --cor3: #5F0311;
+    --cor4: #720415;
+    --cor5: #880419;
+
+    --font1: "Space Mono", serif;
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+  header{
+
+    h1{
+        font-size: 4em;
+    }
+    p{
+        font-size: 1.2em;
+        width: 230px;
+        padding: 15px;
+    }
+  }  
+
+  nav{
+
+    ul{
+
+        li{
+width: 230px;
+padding: 15px;
+            a{
+        font-size: 1.1em;
+            }
+        }
+    }
+  }
+}
+
+@media screen and (min-width:992px) {
+    header{
+
+        h1{
+            font-size: 6em;
+        }
+        p{
+            font-size: 1.4em;
+            width: 400px;
+            padding: 30px;
+        }
+      }  
+    
+      nav{
+    
+        ul{
+    
+            li{
+    width: 330px;
+    padding: 20px;
+                a{
+            font-size: 1.4em;
+                }
+            }
+        }
+      }
+}
