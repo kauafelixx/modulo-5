@@ -44,7 +44,14 @@ padding: 15px;
         }
     }
   }
+
+  img{
+    width: 100vw;
+
+  }
 }
+
+
 
 @media screen and (min-width:992px) {
     p{
@@ -78,5 +85,10 @@ padding: 15px;
                 }
             }
         }
+      }
+      img{
+        margin: auto;
+        width: 100vw;
+        height: 600px;
       }
 }
