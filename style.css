@@ -15,12 +15,12 @@
 * {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 body {
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
     background-color: var(--cor5);
 }
 
@@ -134,20 +134,22 @@ li:hover {
 
 .container1 {
     background-color: var(--cor1);
-    width: 100vw;
-    height: 100px;
+
     margin-top: 20px;
     display: flex;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.754);
 
+    flex-flow: row wrap;
+
+
     .conteudo {
         background-color: var(--cor2);
-        border-radius: 20px;
+        ;
         box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.74);
-        width: 50px;
-        height: 80px;
+        flex-basis: 100px;
         flex: auto;
-        margin: 10px;
+        margin: 5px;
+        padding: 40px;
     }
 }
 
@@ -161,7 +163,7 @@ li:hover {
     align-items: center;
     margin: auto;
     box-shadow: inset 2px 2px 20px rgba(0, 0, 0, 0.701);
-    border-radius: 0px 50% ;
+    border-radius: 0px 50%;
 }
 
 #teste1-filho {
@@ -169,5 +171,5 @@ li:hover {
     height: 250px;
     background-color: var(--cor2);
     box-shadow: 2px 2px 15px black;
-    border-radius: 0px 50% ;
+    border-radius: 0px 50%;
 }
